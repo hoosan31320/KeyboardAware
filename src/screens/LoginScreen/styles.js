@@ -1,0 +1,98 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center'
+    },
+    title: {
+
+    },
+    logo: {
+        flex: 1,
+        height: 120,
+        width: 120,
+        alignSelf: "center",
+        margin: 30
+    },
+    input: {
+        height: 48,
+        borderRadius: 5,
+        overflow: 'hidden',
+        backgroundColor: 'white',
+        marginTop: 10,
+        marginBottom: 10,
+        marginLeft: 30,
+        marginRight: 30,
+        paddingLeft: 16
+    },
+    button: {
+        backgroundColor: '#1b065e',
+        marginLeft: 30,
+        marginRight: 30,
+        marginTop: 20,
+        height: 48,
+        borderRadius: 5,
+        alignItems: "center",
+        justifyContent: 'center'
+    },
+    buttonTitle: {
+        color: 'white',
+        fontSize: 16,
+        fontWeight: "bold"
+    },
+    footerView: {
+        flex: 1,
+        alignItems: "center",
+        marginTop: 20
+    },
+    footerText: {
+        fontSize: 16,
+        color: '#2e2e2d'
+    },
+    footerLink: {
+        color: "#1b065e",
+        fontWeight: "bold",
+        fontSize: 16
+    },
+    container1: {},
+    earth: {
+        position: "absolute",
+        color: "rgba(255,134,0,1)",
+        fontSize: 70,
+        left: 0,
+        top: 0
+    },
+    tV: {
+        top: 23,
+        left: 38,
+        position: "absolute",
+        color: "rgba(217,240,255,1)",
+        fontSize: 19
+    },
+    book: {
+        top: 7,
+        left: 20,
+        position: "absolute",
+        color: "rgba(217,240,255,1)",
+        fontSize: 18
+    },
+    movie: {
+        top: 25,
+        left: 2,
+        position: "absolute",
+        color: "rgba(217,240,255,1)",
+        fontSize: 18
+    },
+    icon10: {
+        top: 43,
+        left: 22,
+        position: "absolute",
+        color: "rgba(217,240,255,1)",
+        fontSize: 16
+    },
+    earthStack: {
+        width: 57,
+        height: 76
+  }
+})
